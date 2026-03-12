@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (keep the chart, ignore large data files)
+*.csv
+*.parquet
+*.h5
+
+# Secrets — NEVER commit tokens or API keys
+*.env
+.env
+secrets.py
+config/secrets.py
